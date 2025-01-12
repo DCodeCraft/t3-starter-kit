@@ -1,0 +1,10 @@
+############
+### PAGE ###
+############
+page {
+     fluidtemplate {
+        layoutRootPath = EXT:t3_starter_kit/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:t3_starter_kit/Resources/Private/Partials/Page/
+        templateRootPath = EXT:t3_starter_kit/Resources/Private/Templates/Page/
+    }
+}

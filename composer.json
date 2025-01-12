@@ -1,0 +1,20 @@
+{
+    "name": "learner/t3-starter-kit",
+    "type": "typo3-cms-extension",
+    "description": "It will cover basics of typoscript",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Learner\\T3StarterKit\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_starter_kit"
+        }
+    }
+}
